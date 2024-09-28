@@ -30,6 +30,13 @@ body {
     object-fit: cover;
 }
 
+@media (max-width: 600px) {
+    .rectangle-button {
+        display: none;
+    }
+}
+
+
 .container {
     display: flex;
     justify-content: center;
